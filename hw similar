@@ -1,0 +1,6 @@
+num1 = 3
+num2 = 5
+
+
+
+print(num1, "raised to the power of", num2, "is", num1 ** num2)
