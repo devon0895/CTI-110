@@ -1,7 +1,7 @@
 #DevonPoole
 #2/17/2024
-#P1LAB2
-# LAB: Warm up: Basic output with variables
+#P1HW1
+#LAB: Warm up: Basic output with variables
 
 
 num1 = int(input("Enter integer:", ))
