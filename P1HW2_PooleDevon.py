@@ -3,25 +3,23 @@
 #P1HW2
 #Doing basic math in python
 
-exp = (int(gas + lodge + food))
+budget = int(input("\nEnter budget: ", ))
 
-budget = int(input("What is your travel budget?", ))
-print("Your vacation budget is:", budget)
+area = input("\nEnter your travel destination? ", )
 
-area = input("Where is your vacation destination?", )
-print("You're going to", area)
+gas = int(input("\nHow much do you think you will spend on gas? ", ))
 
-gas = int(input("How much will you spend on gas?", ))
-print("You'll spend", "$", gas, "in gas money")
+lodge = int(input("\nApproximately, How much will you need for accomodation/hotel? "))
 
-lodge = int(input("How much will you spend on the hotel room?"))
-print("The sum of hotel expenses add up to", lodge )
+food = int(input("\nLast, how much do you need for food? "))
 
-food = int(input("How much do you plan to spend on food?" ))
-print("Your food budget adds up to", food )
+#--------Travel Expenses--------
+print("\nLocation: ", area)
+print("Initial Budget: ", budget)
 
-print("Your vacation expenses add up to", area + gas + lodge + food )
+print("\nFuel: ", gas)
+print("Accomodation: ", lodge)
+print("Food: ", food)
 
-print(budget -)
-
-print("Based on your budget and projected expenses, you'll have", budget - totalexp, "left after the trip.")
+exp = gas + lodge + food 
+print("\nRemaining Balance: ", budget - exp)
